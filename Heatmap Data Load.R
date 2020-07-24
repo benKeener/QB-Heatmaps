@@ -1,3 +1,9 @@
+library(tidyverse)
+library(dplyr)
+library(nflfastR)
+
+
+
 f19 <- readRDS(
   url(
     glue::glue("https://raw.githubusercontent.com/guga31bb/nflfastR-data/master/data/play_by_play_2019.rds")
